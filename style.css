@@ -1,0 +1,112 @@
+body{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+@media screen and (min-width:992px){
+.chiken1 {
+border:3px solid black;
+width:30.5%;
+float:left;
+margin: 0 10px 0 20px;
+} 
+.chiken2 {
+border:3px solid black;
+width:30.5%;
+float:left;
+margin: 0 10px 0 10px;
+} 
+.chiken3 {
+border:3px solid black;
+width:30.5%;
+float:left;
+margin: 0 0px 0 15px;
+} 
+}
+@media screen and (min-width:768px) and (max-width :991px) {
+.chiken1 {
+border:3px solid black;
+width:45%;
+float:left;
+margin:2%;
+} 
+.chiken2 {
+border:3px solid black;
+width:45%;
+float:left;
+margin :2%;
+} 
+.chiken3 {
+border:3px solid black;
+width:95%;
+margin: 1% 2% 1% 2%;
+clear: both;
+} 
+}
+@media screen and (max-width:767px){
+.chiken1 {
+border:3px solid black;
+width:80%;
+margin:0% 10% 5% 10%;
+} 
+.chiken2 {
+border:3px solid black;
+width:80%;
+margin:5% 10% 5% 10%;
+} 
+.chiken3 {
+border:3px solid black;
+width:80%;
+margin:5% 10% 5% 10%;
+} 
+}
+#chi{
+padding:2px 30px 2px 30px;
+background:#c0c;
+opacity:0.8;
+}
+#sushi{
+padding:2px 40px 2px 40px;
+background:#ff3;
+opacity:0.8;
+}
+#beef{
+padding:2px 45px 2px 45px;
+background:#cf1717;
+opacity:0.8;
+}
+.heading{
+text-align:center;
+padding:30px;
+}
+div {
+margin-bottom:0px;
+background-color:#666666;
+}
+.border {
+font-size:20px;
+font-weight :bold;
+border-bottom :3px solid black;
+border-left  :3px solid black;
+text-align:center;
+float:right;
+margin-top:0px;
+}
+.para {
+clear: both;
+padding:0 0 0 15px;
+}
+.beef {
+border-bottom :2px solid black;
+border-left  :2px solid black;
+background:lightblue;
+text-align:center;
+float:right;
+}
+.sushi {
+border-bottom :2px solid black;
+border-left  :2px solid black;
+background:green;
+text-align:center;
+float:right;
+}
